@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  irrigator:
+    image: irrigator
+    ports:
+      - "80:80"
+    privileged: true
